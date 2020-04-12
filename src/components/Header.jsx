@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles/Header.css'
+import './styles/Header.css';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 const Header = () => (
     <Jumbotron className='jumbotron'>
