@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 import './index.css';
 
-function App() {
+import {Header} from '../src/components/Header';
+
+
+const App = () => {
   return (
     <div className="App">
-      
+      <Header />
     </div>
   );
 }
