@@ -37,3 +37,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1, 
+h2 { 
+  font-family: var(--ft-family-heading);
+  font-size:5rem;
+
+}
+
