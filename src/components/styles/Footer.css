@@ -1,0 +1,18 @@
+.footer {
+    font-family: var(--ft-family-text);
+    font-size: 1.4rem;
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+span:active
+span:hover {
+    color: var(--color-pink);
+}
+
+span:visited {
+    color: gray;
+}
