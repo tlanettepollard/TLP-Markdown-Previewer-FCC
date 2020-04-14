@@ -8,12 +8,13 @@ import {Footer} from '../src/components/Footer';
 
 
 
+
 const App = () => {
   return (
     <div className="App">
       <Container fluid>
         <Header />
-          
+        
         <Footer />
       </Container>
     </div>
