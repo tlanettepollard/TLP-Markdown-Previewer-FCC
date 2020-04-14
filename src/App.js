@@ -1,11 +1,11 @@
 import React from 'react';
+import marked from 'marked';
 import './App.css';
 import './index.css';
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
 
-import  {Header}  from '../src/components/Header';
+import {Header} from '../src/components/Header';
 import {Footer} from '../src/components/Footer';
-
 
 
 
@@ -14,11 +14,10 @@ const App = () => {
     <div className="App">
       <Container fluid>
         <Header />
-        
         <Footer />
       </Container>
     </div>
-  );
+  )
 }
 
 export default App;
