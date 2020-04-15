@@ -4,11 +4,12 @@
     align-items: center;
     font-family: var(--ft-family-text);
     font-size: 1.4rem;
-    color: black;
+    color: var(--color-pink);
+    height: 120px;
 }
 
 span {
-    color: purple;
+    color: white;
 }
 
 span:active
