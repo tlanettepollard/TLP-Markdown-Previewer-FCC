@@ -1,11 +1,14 @@
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: var(--ft-family-text);
     font-size: 1.4rem;
-    color: white;
+    color: black;
 }
 
 span {
-    color: white;
+    color: purple;
 }
 
 span:active
