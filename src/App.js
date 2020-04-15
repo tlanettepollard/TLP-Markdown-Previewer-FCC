@@ -75,7 +75,8 @@ const Previewer = (props) => {
 };
 
 
-const placeholder = `# Welcome to my React Markdown Previewer!
+const placeholder = 
+`# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
@@ -107,10 +108,10 @@ Wild Header | Crazy Header | Another Header?
 Your content can | be here, and it | can be here....
 And here. | Okay. | I think we get it.
 
-- And of course there are lists.
-  - Some are bulleted.
-     - With different indentation levels.
-        - That look like this.
+  - And of course there are lists.
+    - Some are bulleted.
+      - With different indentation levels.
+          - That look like this.
 
 
 1. And there are numbererd lists too.
