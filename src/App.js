@@ -9,6 +9,7 @@ import {Footer} from '../src/components/Footer';
 
 const renderer = new marked.Renderer();
 renderer.link = function (href, title, text) {
+  // eslint-disable-next-line 
   return `a target="_blank" href="${href}">${text}` + '</a>';
 }
 
@@ -43,8 +44,8 @@ class App extends React.Component {
     const classes = this.state.editorMaximized ? ['editorWrap maximized', 'previewWrap hide', 'fa fa-compress'] : ['editorWrap', 'previewWrap', 'fa fa-arrows-alt'];
     return ( 
     <div className = "App" >
-      <Header />
         <div>
+          < Header />
           <div className={classes[0]}>
             <Toolbar icon={classes[2]} onClick={this.handleEditorMaximize} text="Editor" />
             <Editor markdown={this.state.markdown} onChange={this.handleChange} />
@@ -54,8 +55,9 @@ class App extends React.Component {
             <Toolbar icon={classes[2]} onClick={this.handlePreviewMaximize} text="Previewer" />
             <Preview markdown={this.state.markdown} />
           </div>
+          < Footer />
         </div>
-      <Footer />
+      
 
     </div>
     )
@@ -64,7 +66,7 @@ class App extends React.Component {
 
 const Toolbar = (props) => {
   return (
-    <div className="toolbar">
+    <div title="rebel-cow" className="toolbar">
       <i className="fa fa-free-code-camp"/>
       {props.text}
       <i onClick={props.onClick} className={props.icon}></i>
