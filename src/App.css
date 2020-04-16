@@ -39,3 +39,8 @@
   border-radius: 0px 0px 10px 10px;
   box-shadow: 15px 8px 10px 5px rgba(0, 0, 0, 0.3);
 }
+
+.previewWrap {
+  min-width: 600px;
+}
+
