@@ -1,6 +1,5 @@
 .appWrap {
-  height: 100%;
-  width: 100%;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -14,8 +13,8 @@
   align-self: flex-start;
 }
 
-.toolbar {
-  background: var(--color-lilac);
+ .toolbar {
+  background: var(--color-light-lilac);
   width: 80%;
   font-family: var(--ft-family-text);
   font-size: 1.2em;
@@ -26,44 +25,17 @@
   border-bottom-width: 0px;
   border-radius: 10px 10px 0px 0px;
   box-shadow: 15px 8px 10px 5px rgba(0, 0, 0, 0.3);
-    i  {
-      width: 25px;
-      color: black;
-      margin-left: 5px;
-    }
-    .fa-arrows-alt,
-    .fa-compress {
-      position: absolute;
-      right: -5px;
-    }
-  }
+}
 
-  .fa-retweet,
-  .fa-compress,
-  .fa-arrows-alt {
-    &:hover {
-      cursor: pointer;
-    }
-  }
-
-  .fa-free-code-camp {
-    margin-right: 3px;
-  }
-
-  .editorWrap {
-    width: 600px;
-    margin: 18px auto;
-    .toolbar {
-      width: 99%;
-    }
-    textarea {
-      width: 99%;
-      min-height: 200px;
-      margin-bottom: -5px;
-      resize: vertical;
-      outline: none;
-      padding-left: 5px;
-      padding-top: 5px;
-      font-size: 12px;
-    }
-  }
+#editor {
+  height: 60vh;
+  width: 80%;
+  min-height: 500px;
+  min-width: 300px;
+  padding: 10px 15px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-bottom-width: 0px;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 15px 8px 10px 5px rgba(0, 0, 0, 0.3);
+}

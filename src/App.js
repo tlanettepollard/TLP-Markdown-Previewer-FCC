@@ -31,18 +31,19 @@ class App extends React.Component {
     });
   }
   render() {
-    const classes = this.state.editorMaximized ? ['editorWrap maximized', 'previewWrap hide', 'fa fa-compress'] : this.state.previewMaximized ? ['editorWrap hide', 'previewWrap maximized','fa fa-compress'] : ['editorWrap', 'previewWrap', 'fa fa-arrows-alt'];
+    //const classes = this.state.editorMaximized ? ['editorWrap maximized', 'previewWrap hide', 'fa fa-compress'] : this.state.previewMaximized ? ['editorWrap hide', 'previewWrap maximized','fa fa-compress'] : ['editorWrap', 'previewWrap', 'fa fa-arrows-alt'];
     return (
       <div>
         <Header />
         <div className="appWrap">
-          <div className={classes[0]}>
-            <Toolbar icon={classes[2]}onClick={this.handleEditorMaximize}text="Editor" />
+          <div className="editorWrap"
+          >
+            <Toolbar text="Editor" />
             <Editor markdown={this.state.markdown} onChange={this.handleChange} />
           </div>
-          <div className="converter"></div>
-          <div className={classes[1]}>
-            <Toolbar icon={classes[2]} onClick={this.handlePreviewMaximize} text="Previewer" />
+          <div className="previewWrap"
+          >
+            <Toolbar text="Previewer" />
             <Previewer markdown={this.state.markdown} />
           </div>
         </div>
