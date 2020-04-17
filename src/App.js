@@ -76,8 +76,7 @@ const Previewer = (props) => {
 };
 
 
-const placeholder = 
-`
+const placeholder = `
 # Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
