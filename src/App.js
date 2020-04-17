@@ -41,6 +41,7 @@ class App extends React.Component {
             <Toolbar text="Editor" />
             <Editor markdown={this.state.markdown} onChange={this.handleChange} />
           </div>
+          <div className="converter"></div>
           <div className="previewWrap"
           >
             <Toolbar text="Previewer" />
