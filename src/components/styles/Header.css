@@ -7,8 +7,7 @@
     /*box-shadow: 10px 10px 15px var(--color-black);*/
 }
 
-@media screen and (max-device-width: 414px),
-screen and (max-width: 414px) {
+@media screen and (max-width: 850px) {
     .jumbotron {
         text-align: center;
     }

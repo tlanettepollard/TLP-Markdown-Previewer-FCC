@@ -27,14 +27,9 @@ span:visited {
     color: gray;
 }
 
-@media screen and (max-device-width: 414px),
-screen and (max-width: 414px) {
+@media screen and (max-width: 850px){
     footer {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        width: 80%;
-        margin: 40px auto;
+        width: 60vw;
     }
 }
+  
