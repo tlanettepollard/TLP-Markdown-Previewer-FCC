@@ -18,5 +18,3 @@ I enjoy using React JS to design web apps. When I started this project, I had hu
 [React Markdown Previewer](https://medium.com/@marko.libor/react-markdown-previewer-64fa8d9896c0) article by Libor Marko 
 - I used this article as a guide and studied his GitHub Repository. 
  
-## Picture of App
-![TLP Markdown Previewer](public/MarkdownPrev.png)
