@@ -26,4 +26,10 @@ span:hover {
 span:visited {
     color: gray;
 }
+
+@media screen and (max-width: 850px){
+    footer {
+        width: 60vw;
+    }
+}
   

@@ -136,7 +136,44 @@ textarea {
     padding-right: 5px;
   }
 
-
-
 /* Media Queries*/
-
+@media screen and (max-width: 850px) {
+  .appWrap {
+    margin-top: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+  }
+  .editorWrap {
+    min-width: 100px;
+    margin-left: 17.5vw;
+    margin-top: 0px;
+  }
+  .editorWrap .toolbar {
+    width: 60vw;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+  .editorWrap #editor {
+    width: 60vw;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    min-width: 100px;
+    min-height: 200px;
+    height: 25vh;
+  }
+  .previewWrap {
+    margin-top: 30px;
+    min-width: 100px;
+  }
+  .previewWrap .toolbar {
+    width: 80vw;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+  .previewWrap #preview {
+    width: 80vw;
+    height: 35vh;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    min-height: 300px;
+  }
+}
