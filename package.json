@@ -2,6 +2,7 @@
   "name": "markdown",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tlanetterose.github.io/TLP-Markdown-Previewer-FCC/",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free-regular": "^5.0.13",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "marked": "^0.8.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
@@ -19,6 +21,8 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
