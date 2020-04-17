@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TLP-Markdown-Previewer-FCC/static/css/main.2678b1fb.chunk.css",
+    "main.js": "/TLP-Markdown-Previewer-FCC/static/js/main.53b3b1ab.chunk.js",
+    "main.js.map": "/TLP-Markdown-Previewer-FCC/static/js/main.53b3b1ab.chunk.js.map",
+    "runtime-main.js": "/TLP-Markdown-Previewer-FCC/static/js/runtime-main.5f854aa7.js",
+    "runtime-main.js.map": "/TLP-Markdown-Previewer-FCC/static/js/runtime-main.5f854aa7.js.map",
+    "static/js/2.380dc624.chunk.js": "/TLP-Markdown-Previewer-FCC/static/js/2.380dc624.chunk.js",
+    "static/js/2.380dc624.chunk.js.map": "/TLP-Markdown-Previewer-FCC/static/js/2.380dc624.chunk.js.map",
+    "index.html": "/TLP-Markdown-Previewer-FCC/index.html",
+    "precache-manifest.3412ccf35c8277c7447aa503c756df48.js": "/TLP-Markdown-Previewer-FCC/precache-manifest.3412ccf35c8277c7447aa503c756df48.js",
+    "service-worker.js": "/TLP-Markdown-Previewer-FCC/service-worker.js",
+    "static/css/main.2678b1fb.chunk.css.map": "/TLP-Markdown-Previewer-FCC/static/css/main.2678b1fb.chunk.css.map",
+    "static/js/2.380dc624.chunk.js.LICENSE.txt": "/TLP-Markdown-Previewer-FCC/static/js/2.380dc624.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f854aa7.js",
+    "static/js/2.380dc624.chunk.js",
+    "static/css/main.2678b1fb.chunk.css",
+    "static/js/main.53b3b1ab.chunk.js"
+  ]
+}
