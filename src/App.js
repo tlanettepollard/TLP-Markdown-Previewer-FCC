@@ -31,18 +31,19 @@ class App extends React.Component {
     });
   }
   render() {
-    const classes = this.state.editorMaximized ? ['editorWrap maximized', 'previewWrap hide', 'fa fa-compress'] : this.state.previewMaximized ? ['editorWrap hide', 'previewWrap maximized','fa fa-compress'] : ['editorWrap', 'previewWrap', 'fa fa-arrows-alt'];
+    //const classes = this.state.editorMaximized ? ['editorWrap maximized', 'previewWrap hide', 'fa fa-compress'] : this.state.previewMaximized ? ['editorWrap hide', 'previewWrap maximized','fa fa-compress'] : ['editorWrap', 'previewWrap', 'fa fa-arrows-alt'];
     return (
       <div>
         <Header />
         <div className="appWrap">
-          <div className={classes[0]}>
-            <Toolbar icon={classes[2]}onClick={this.handleEditorMaximize}text="Editor" />
+          <div className="editorWrap"
+          >
+            <Toolbar text="Editor" />
             <Editor markdown={this.state.markdown} onChange={this.handleChange} />
           </div>
-          <div className="converter"></div>
-          <div className={classes[1]}>
-            <Toolbar icon={classes[2]} onClick={this.handlePreviewMaximize} text="Previewer" />
+          <div className="previewWrap"
+          >
+            <Toolbar text="Previewer" />
             <Previewer markdown={this.state.markdown} />
           </div>
         </div>
@@ -75,8 +76,8 @@ const Previewer = (props) => {
 };
 
 
-const placeholder = 
-`# Welcome to my React Markdown Previewer!
+const placeholder = `
+# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
@@ -114,11 +115,11 @@ And here. | Okay. | I think we get it.
           - That look like this.
 
 
-1. And there are numbererd lists too.
-1. Use just 1s if you want! 
-1. But the list goes on...
-- Even if you use dashes or asterisks.
-* And last but not least, let's not forget embedded images:
+  1. And there are numbererd lists too.
+  1. Use just 1s if you want! 
+  1. But the list goes on...
+  - Even if you use dashes or asterisks.
+  * And last but not least, let's not forget embedded images:
 
 ![React Logo w/ Text](https://goo.gl/Umyytc)`;
 

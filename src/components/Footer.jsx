@@ -11,7 +11,6 @@ export const Footer = () => (
                {" "}
                <span>T.Lanette Pollard</span>
              </a>
-           </p>
-           <p> &nbsp; FreeCodeCamp Front End Libraries Project </p>
+            &nbsp; FreeCodeCamp Front End Libraries Project </p>
          </footer>
        );

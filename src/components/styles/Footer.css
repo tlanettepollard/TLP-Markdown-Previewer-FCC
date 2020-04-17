@@ -6,8 +6,14 @@
     font-size: 1.4rem;
     color: var(--color-pink);
     height: 120px;
+    margin: 40px auto;
 }
 
+footer p {
+    width: 80%;
+    text-align: center;
+    justify-content: center;
+}
 span {
     color: white;
 }
@@ -19,4 +25,16 @@ span:hover {
 
 span:visited {
     color: gray;
+}
+
+@media screen and (max-device-width: 414px),
+screen and (max-width: 414px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: 40px auto;
+    }
 }

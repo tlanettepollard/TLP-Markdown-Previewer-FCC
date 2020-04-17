@@ -35,7 +35,7 @@ html {
 
 body {
   height: 100%;
-  margin: 0;
+  margin: 10px 0;
   padding: 0;
   box-sizing: inherit;
   font-family: var(--ft-family-text);
